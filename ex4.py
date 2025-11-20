@@ -1,0 +1,7 @@
+s=input("Enter the element of the tuple,Seperated by comma: ")
+t=tuple(map(int,s.split(',')))
+print("The tuple is: ",t)
+li=list(t)
+print("The list is : ",li)
+li.sort()
+print("The sorted list is ",li)
